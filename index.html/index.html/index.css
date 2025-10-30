@@ -1,0 +1,153 @@
+/*Левая сторона*/
+.left {
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+/*Правая сторона*/
+}
+.right {
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    width: 50%;
+
+}
+body {
+    
+    background-color: #EFF6FF;
+}
+/*Кнопка Facebook*/
+
+.Facebook {
+    width: 270px;
+    height: 47px;
+    background-color: #255A9B;
+    color: #FFFFFF;
+    white-space: nowrap;
+    padding-right: 50px;
+
+}
+.Facebook-img {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    margin-left: -30px;
+    float: left;
+
+
+    /*Кнопка Linkedln*/
+}
+.Linkedln {
+    width: 270px;
+    height: 47px;
+    background-color: #0076B6;
+    margin-left: 55px;
+    white-space: nowrap;
+    padding-right: 55px;
+    color: #FFFFFF;
+}
+.Linkedln-img {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    float: left;
+    margin-left: -27px;
+    
+}
+/*Текст между полосками*/
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #AFAFAF;
+   
+}
+.text {
+    padding: 0 10px;
+}
+/*Общий блок Input*/
+.input {
+    margin-left: -145px;
+}
+/*Input рамка для телефона*/
+.Phone {
+     border: 2px solid #EEEEEE;
+  width: 270px;
+  height: 47px;  
+  width: 270px;
+  height: 55px;
+  margin-left: 475px;
+  margin-top: -58px;
+}
+/*Input рамка для почты*/
+.Email {
+    border: 2px solid #EEEEEE;
+  width: 270px;
+  height: 47px;  
+  width: 270px;
+  height: 55px;
+  margin-left: 143px;
+  
+}
+/*Надписи телефо и почта в инпуте*/
+p {
+    margin-top: -40px;
+    margin-left: 5px;
+    color: #AFAFAF;
+}
+/*Форма инпута*/
+.text {
+    margin-top: 27px;
+    width: 245px;
+    border: none;
+    outline: none;
+    background-color: #EFF6FF;
+}
+/*Текст под заголовка*/
+.h1 {
+    color: #96A5B1;
+}
+.h3 {
+    color: #96A5B1;
+}
+
+/*Текст заголовка 1 и 2*/
+h1 {
+    color: #7B8A92;
+}
+h2 {
+    color: #7B8A92;
+}
+/*Радио кнопки*/
+label {
+    margin-right: 70px
+}
+u {
+    color: blue;
+}
+.last {
+    width: 250px;
+    height: 35px;
+    background-color:dodgerblue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+pre {
+    border: 2px solid #EEEEEE;
+    width: 330px;
+    height: 65px;
+    background-color: #FFFFFF;
+padding-right: 25px;
+padding-left: 0px;
+padding-top: 15px;
+margin-left: -25px;
+text-align: left;
+}
