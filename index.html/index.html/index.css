@@ -1,20 +1,20 @@
 /*Левая сторона*/
 .left {
-    float: left;
-    width: 50%;
-    margin-right: 10px;
+    display: inline;
+   
+    
 /*Правая сторона*/
 }
 .right {
-    position: absolute;
-    right: -50px;
-    top: 20px;
-    width: 50%;
-
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    top : -90px;
+    
 }
 body {
-    
-    background-color: #EFF6FF;
+   background-color: #EFF6FF;
+   margin: 50px;
 }
 /*Кнопка Facebook*/
 
@@ -126,12 +126,18 @@ h2 {
     color: #7B8A92;
 }
 /*Радио кнопки*/
+
+input {
+    
+}
 label {
-    margin-right: 70px
+    margin-right: 70px;
+    
 }
 u {
     color: blue;
 }
+/*last button*/
 .last {
     width: 250px;
     height: 35px;
@@ -139,15 +145,14 @@ u {
     color: aliceblue;
     font-weight: bold;
     font-size: 14px;
+    border: none;
 }
-pre {
-    border: 2px solid #EEEEEE;
-    width: 330px;
-    height: 65px;
+
+/*Блок с комментарием*/
+.coment {
+    width: 260px;
+    height: 50px;
+    padding: 10px;
+    text-align: left;
     background-color: #FFFFFF;
-padding-right: 25px;
-padding-left: 0px;
-padding-top: 15px;
-margin-left: -25px;
-text-align: left;
 }
