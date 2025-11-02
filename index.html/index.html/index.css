@@ -315,8 +315,10 @@ u {
     text-align: left;
     background-color: #FFFFFF;
     color: #AFAFAF;
-    opacity: 0;
-    
+     opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-top: -40px;
+    border-radius: 5px;
 }
 /*Появление блока с комментарием при наведении на иконку информации*/
 .Radio:hover~.text-content .coment
