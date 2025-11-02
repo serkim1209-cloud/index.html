@@ -2,16 +2,18 @@
 
 .left {
     display: inline;
+    width: 40%;
+    height: 100%;
 }
 /*Высота заголовка*/
 
 .title {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 /*Высота кнопок*/
 
 .button {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 /*Высота текста контента*/
 .coment {
@@ -26,15 +28,21 @@
 }
 
 .right {
-    display: inline-block;
-    margin-left: 50px;
-    position: relative;
-    top : -90px;
-    
+    display: inline;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    margin-top: 70px;
+
 }
-body {
+
+    body {
    background-color: #EFF6FF;
-   margin: 50px;
+   margin: 30px;
+   font-family: 'Barlow', sans-serif;
+   font-weight: small;
+   
 }
 /*Кнопка Facebook*/
 
@@ -80,15 +88,15 @@ body {
     display: flex;
     align-items: center;
     width: 35%;
-    margin-left: 195px;
+    margin-left: 183px;
     margin-top: 10px;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 .line {
     flex-grow: 1;
     height: 1px;
     background-color: #AFAFAF;
-   
+   margin: 7px;
 }
 .text {
     padding: 0 10px;
@@ -96,7 +104,7 @@ body {
 /*Общий блок Input*/
 .input {
     margin-left: -145px;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 /*Input рамка для телефона*/
 .Phone {
@@ -183,7 +191,7 @@ label {
     align-items: center;
     font-size: 9px;
     position: absolute;
-    margin-left: 60px;
+    margin-left: 67px;
     margin-top: -12px;
     color: #AFAFAF;
 }
@@ -212,7 +220,7 @@ label {
     align-items: center;
     font-size: 9px;
     position: absolute;
-    margin-left: 35px;
+    margin-left: 38px;
     margin-top: -12px;
     color: #AFAFAF;
 }
@@ -324,4 +332,16 @@ u {
 .Radio:hover~.text-content .coment
 {
   opacity: 1;
+}
+/*Подключение шрифта*/
+   @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+     }
+
+.or {
+    font-size: smaller;
+    font-weight: small;
 }
