@@ -1,10 +1,30 @@
 /*Левая сторона*/
+
 .left {
     display: inline;
-   
-    
-/*Правая сторона*/
 }
+/*Высота заголовка*/
+
+.title {
+    margin-bottom: 60px;
+}
+/*Высота кнопок*/
+
+.button {
+    margin-bottom: 60px;
+}
+/*Высота текста контента*/
+.coment {
+    margin-bottom: 60px;
+}
+
+/*Правая сторона*/
+
+/*Высота последнего чекбокса*/
+.checkbox {
+    margin-bottom: 60px;
+}
+
 .right {
     display: inline-block;
     margin-left: 50px;
@@ -60,8 +80,9 @@ body {
     display: flex;
     align-items: center;
     width: 35%;
-    margin-left: 170px;
+    margin-left: 195px;
     margin-top: 10px;
+    margin-bottom: 55px;
 }
 .line {
     flex-grow: 1;
@@ -75,16 +96,18 @@ body {
 /*Общий блок Input*/
 .input {
     margin-left: -145px;
+    margin-bottom: 55px;
 }
 /*Input рамка для телефона*/
 .Phone {
-     border: 2px solid #EEEEEE;
+  border: 2px solid #EEEEEE;
   width: 270px;
   height: 47px;  
   width: 270px;
   height: 55px;
   margin-left: 475px;
   margin-top: -58px;
+
 }
 /*Input рамка для почты*/
 .Email {
@@ -94,6 +117,7 @@ body {
   width: 270px;
   height: 55px;
   margin-left: 143px;
+  border-left-color:blue;
   
 }
 /*Надписи телефо и почта в инпуте*/
@@ -114,24 +138,159 @@ p {
 .h1 {
     color: #96A5B1;
 }
-.h3 {
-    color: #96A5B1;
-}
 
 /*Текст заголовка 1 и 2*/
 h1 {
     color: #7B8A92;
 }
-h2 {
+.h2 {
     color: #7B8A92;
+    margin-bottom: 60px;
 }
 /*Радио кнопки*/
 
-input {
-    
+.Radio {
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 60px;
 }
 label {
     margin-right: 70px;
+    
+}
+/*Иконки информации для радио кнопок*/
+.information-1 {
+    width: 9px;
+    height: 9px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -12px;
+    color: #AFAFAF;
+}
+.information-2{
+     width: 9px;
+    height: 9px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -12px;
+    color: #AFAFAF;
+}
+.information-3 {
+    width: 9px;
+    height: 9px;
+    border: 1px solid  #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -12px;
+    color: #AFAFAF;
+}
+
+.information-4 {
+    width: 9px;
+    height: 9px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: -12px;
+    color: #AFAFAF;
+}
+input[type="radio"] {
+    display: none;
+
+}
+/*Кастомные радио кнопки*/
+.custom-radio-1 {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 65px;
+    margin-left: -25px;
+    color: #AFAFAF;
+    margin-top: 2px;
+    
+
+}
+.custom-radio-2 {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 140px;
+    margin-left: -25px;
+    color: #AFAFAF;
+    margin-top: 2px;
+
+}
+.custom-radio-3 {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 60px;
+    margin-left: -25px;
+    color: #AFAFAF;
+    margin-top: 2px;
+
+}
+.custom-radio-4 {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #AFAFAF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position: absolute;
+    margin-left: 65px;
+    margin-left: -25px;
+    color: #AFAFAF;
+    margin-top: 2px;
+
+}
+.custom-radio-1:hover, .custom-radio-2:hover, .custom-radio-3:hover, .custom-radio-4:hover {
+    border-color: blue;
+    border-width: 4px;
+    margin-top: -3px;
+    
     
 }
 u {
@@ -155,4 +314,12 @@ u {
     padding: 10px;
     text-align: left;
     background-color: #FFFFFF;
+    color: #AFAFAF;
+    opacity: 0;
+    
+}
+/*Появление блока с комментарием при наведении на иконку информации*/
+.Radio:hover~.text-content .coment
+{
+  opacity: 1;
 }
