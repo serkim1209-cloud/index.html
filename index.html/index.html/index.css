@@ -117,6 +117,12 @@
   margin-top: -58px;
 
 }
+.Phone:hover{
+    border-left-color: blue;
+}
+.Email:hover{
+    border-left-color: blue;
+}
 /*Input рамка для почты*/
 .Email {
     border: 2px solid #EEEEEE;
@@ -125,7 +131,6 @@
   width: 270px;
   height: 55px;
   margin-left: 143px;
-  border-left-color:blue;
   
 }
 /*Надписи телефо и почта в инпуте*/
