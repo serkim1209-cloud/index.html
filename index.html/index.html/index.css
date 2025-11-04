@@ -2,8 +2,9 @@
 
 .left {
     display: inline;
-    width: 40%;
+    width: 50%;
     height: 100%;
+ 
 }
 /*Высота заголовка*/
 
@@ -29,15 +30,17 @@
 
 .right {
     display: inline;
-    width: 45%;
+    width: 50%;
     height: 100%;
     position: absolute;
     right: 0;
     margin-top: 70px;
-
+    margin-right: -90px;
+   
 }
 
     body {
+   display: flex;
    background-color: #EFF6FF;
    margin: 30px;
    font-family: 'Barlow', sans-serif;
@@ -88,7 +91,7 @@
     display: flex;
     align-items: center;
     width: 35%;
-    margin-left: 183px;
+    margin-left: 170px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -117,10 +120,10 @@
   margin-top: -58px;
 
 }
-.Phone:hover{
+.Phone:has(.text:focus) {
     border-left-color: blue;
 }
-.Email:hover{
+.Email:has(.text:focus) {
     border-left-color: blue;
 }
 /*Input рамка для почты*/
