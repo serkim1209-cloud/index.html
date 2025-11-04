@@ -6,6 +6,16 @@
     height: 100%;
  
 }
+/*логотип*/
+.logo-1 {
+    position: absolute;
+}
+.logo {
+    width: 150px;
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
 /*Высота заголовка*/
 
 .title {
