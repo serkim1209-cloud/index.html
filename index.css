@@ -1,34 +1,43 @@
 /*Левая сторона*/
 
 .left {
-    display: inline;
-    width: 50%;
+    display: inline-block;
+    max-width: 50%;
     height: 100%;
  
 }
+.bg {
+    max-width: 100%;
+}
 /*логотип*/
 .logo-1 {
-    position: absolute;
+    display: inline-block;
+    margin-bottom: 950px;
+    margin-left: -680px;
+
+    
 }
 .logo {
     width: 150px;
     height: 75px;
-    margin-top: 25px;
-    margin-left: 50px;
+    position: absolute;
 }
 /*Высота заголовка*/
 
 .title {
     margin-bottom: 50px;
+    max-width: 100%;
 }
 /*Высота кнопок*/
 
 .button {
     margin-bottom: 50px;
+    
 }
 /*Высота текста контента*/
 .coment {
     margin-bottom: 60px;
+    
 }
 
 /*Правая сторона*/
@@ -36,25 +45,23 @@
 /*Высота последнего чекбокса*/
 .checkbox {
     margin-bottom: 60px;
+   
 }
+/*Правая сторона*/
 
 .right {
-    display: inline;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    margin-top: 70px;
-    margin-right: -90px;
-   
+    display: inline-block;
+    max-width: 50%;
+    float: right;
+    margin: 50px;
 }
 
     body {
-   display: flex;
    background-color: #EFF6FF;
    margin: 30px;
    font-family: 'Barlow', sans-serif;
    font-weight: small;
+   max-width: 100%;
    
 }
 /*Кнопка Facebook*/
@@ -101,7 +108,7 @@
     display: flex;
     align-items: center;
     width: 35%;
-    margin-left: 170px;
+    margin-left: 190px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -138,11 +145,9 @@
 }
 /*Input рамка для почты*/
 .Email {
-    border: 2px solid #EEEEEE;
+  border: 2px solid #EEEEEE;
   width: 270px;
-  height: 47px;  
-  width: 270px;
-  height: 55px;
+  height: 55px;  
   margin-left: 143px;
   
 }
