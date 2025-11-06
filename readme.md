@@ -1,6 +1,6 @@
 # Задание по верстке
 
-![Template](https://serkim1209-cloud.github.io/JavaScript-Web-core-5.9./)
+https://serkim1209-cloud.github.io/JavaScript-Web-core-5.9./
 
 
 ### Рекомендумые редакторы кода
