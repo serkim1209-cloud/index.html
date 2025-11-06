@@ -4,8 +4,8 @@
 font-family: 'Barlow Thin';
 	font-display: swap;
 	src: url("./font/Barlow-Thin.eot");
-	src: local("O"), url("./font/Barlow-Thin.woff") format("woff"), 
-			url("./font/Barlow-Thin.ttf") format("truetype"), 
+	src: local("O"), url("./font/Barlow-Thin.woff") format("woff"),
+			url("./font/Barlow-Thin.ttf") format("truetype"),
 			url("./font/Barlow-Thin.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
