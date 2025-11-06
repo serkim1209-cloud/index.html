@@ -1,6 +1,15 @@
 /*Подключение шрифта*/
 
-
+@font-face {
+font-family: 'Barlow Thin';
+	font-display: swap;
+	src: url("./font/Barlow-Thin.eot");
+	src: local("O"), url("./font/Barlow-Thin.woff") format("woff"), 
+			url("./font/Barlow-Thin.ttf") format("truetype"), 
+			url("./font/Barlow-Thin.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
 /*Левая сторона*/
 
 .left {
@@ -63,8 +72,6 @@
     body {
    background-color: #EFF6FF;
    margin: 30px;
-   font-family: 'Barlow', sans-serif;
-   font-weight: small;
    max-width: 100%;
    
 }
@@ -115,6 +122,8 @@
     margin-left: 190px;
     margin-top: 10px;
     margin-bottom: 50px;
+    font-family: 'Barlow Thin';
+    font-weight: 400; 
 }
 .line {
     flex-grow: 1;
@@ -172,16 +181,25 @@ p {
 /*Текст под заголовка*/
 .h1 {
     color: #96A5B1;
+    font-family: 'Barlow Thin';
+    font-weight: 300;
 }
 
 /*Текст заголовка 1 и 2*/
 h1 {
     color: #7B8A92;
+   font-family: 'Barlow Thin';
+   font-weight: 400;
+
     
 }
 .h2 {
     color: #7B8A92;
     margin-bottom: 60px;
+}
+h2 {
+    font-family: 'Barlow Thin';
+    font-weight: 400;
 }
 /*Радио кнопки*/
 
