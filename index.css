@@ -1,3 +1,6 @@
+/*Подключение шрифта*/
+
+
 /*Левая сторона*/
 
 .left {
@@ -52,6 +55,7 @@
 .right {
     display: inline-block;
     max-width: 50%;
+    height: 100%;
     float: right;
     margin: 50px;
 }
@@ -173,6 +177,7 @@ p {
 /*Текст заголовка 1 и 2*/
 h1 {
     color: #7B8A92;
+    
 }
 .h2 {
     color: #7B8A92;
@@ -356,13 +361,7 @@ u {
 {
   opacity: 1;
 }
-/*Подключение шрифта*/
-   @font-face {
-    font-family: 'Barlow';
-    src: url('../fonts/Barlow-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-     }
+
 
 .or {
     font-size: smaller;
